@@ -1,6 +1,6 @@
 **USO ÉTICO APENAS**
 
-Ferramenta modular e profissional para testar payloads de segurança em aplicações web.
+Ferramenta modular para testar payloads de segurança em aplicações web.
 
 - **Arquitetura Modular**: Código organizado em classes e módulos reutilizáveis
 - **Multi-threading**: Testes paralelos para melhor performance
