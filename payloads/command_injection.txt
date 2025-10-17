@@ -1,0 +1,26 @@
+; ls
+| ls
+|| ls
+& ls
+&& ls
+`ls`
+$(ls)
+; cat /etc/passwd
+| cat /etc/passwd
+; id
+| id
+; whoami
+| whoami
+& dir
+| dir
+|| dir
+&& dir
+; dir
+& type C:\windows\win.ini
+| type C:\windows\win.ini
+; sleep 5
+| sleep 5
+`sleep 5`
+$(sleep 5)
+; ping -c 5 127.0.0.1
+| ping -n 5 127.0.0.1

